@@ -1,6 +1,6 @@
 Blog Site
 Overview
-Welcome to the Blog Site, a dynamic platform built with ASP.NET that allows users to read and interact with various blogs. Users can comment on posts, while admins have the capability to manage blog content efficiently. The site is organized by categories for easy navigation, and a contact feature allows users to send messages directly to the admin.
+Welcome to the Blog Site, a dynamic platform built with ASP.NET and ADO.NET that allows users to read and interact with various blogs. Users can comment on posts, while admins have the capability to manage blog content efficiently. The site is organized by categories for easy navigation, and a contact feature allows users to send messages directly to the admin.
 
 Features
 User Functionality:
@@ -15,9 +15,8 @@ Contact Feature:
 
 Users can send messages directly to the admin through a contact form, enabling seamless communication.
 Technologies Used
-ASP.NET MVC
-C#
-Entity Framework
+ASP.NET
+ADO.NET for database interaction
 SQL Server
 HTML/CSS
 Bootstrap for responsive design
@@ -28,17 +27,13 @@ Clone the Repository:
 
 bash
 Copy code
-git clone https://github.com/Pinsu6/your-repo-name.git
 Set Up the Database:
 
 Create a new database in SQL Server.
-Update the connection string in appsettings.json to point to your database.
+Update the connection string in appsettings.json (or Web.config if applicable) to point to your database.
 Run Migrations:
 
-Open the Package Manager Console and run:
-bash
-Copy code
-Update-Database
+(Optional) If you're using a migration approach, run the necessary scripts to set up the database schema.
 Start the Application:
 
 Launch the project in Visual Studio and run it.
