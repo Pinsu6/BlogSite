@@ -1,0 +1,27 @@
+﻿@using Microsoft.AspNetCore.Http
+@using Newtonsoft.Json
+@{
+    
+    var categoryJson = Context.Session.GetString("cat");
+
+    
+   
+    List<BlogApp.Areas.Blog.Models.Category> categories = JsonConvert.DeserializeObject<List<BlogApp.Areas.Blog.Models.Category>>(categoryJson);
+    
+}
+
+<div class="col-12 col-md-2 mt-5 sidebar mb-4">
+    <div class="list-group">
+        <a asp-action="index" class="list-group-item list-group-item-action active">All Categories</a>
+
+
+
+        @foreach (var category in categories)
+            {
+                <a asp-area="Blog" asp-controller="Blog" asp-action="Category" asp-route-name="@category.categoryname" class="list-group-item list-group-item-action">
+                    @category.categoryname
+                </a>
+            }
+        
+    </div>
+</div>

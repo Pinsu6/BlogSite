@@ -1,0 +1,53 @@
+﻿<link href="~/css/Admin.css" rel="stylesheet" type="text/css" />
+    <!-- Sidebar -->
+  <partial name="_sidebar"/>
+
+    <!-- Main Content -->
+    <div class="main-content mt-5">
+      
+
+        <!-- Dashboard Content -->
+        <div class="container ">
+            <div class="row">
+
+                <!-- Example Cards -->
+                <div class="col-lg col-md-6">
+                    <div class="card p-3 mb-4">
+                        <h5>Total Users</h5>
+                    <h4 class="text-center">@ViewBag.usercount</h4>
+                    </div>
+                </div>
+                <div class="col-lg col-md-6">
+                    <div class="card p-3 mb-4">
+                        <h5>Total Blogs</h5>
+                    <h4  class="text-center">@ViewBag.blogcount</h4>
+                    </div>
+                </div>
+               
+                
+            </div>
+            <div class="container mb-3">
+                <hr/>
+                <h3>Category Wise Blog:-</h3>
+            </div>
+            <hr/>
+        <div class="row">
+            <!--Category wise show blog-->
+            <!-- Example Cards -->
+            @foreach (var item in (Dictionary<string, int>)ViewBag.categorycount)
+            {
+                <div class="col-lg-3 col-md-6">
+                    <div class="card p-3 mb-4">
+                        <h5>@item.Key</h5> 
+                        <p>@item.Value</p>  
+                    </div>
+                </div>
+            }
+           
+           
+
+
+        </div>
+        </div>
+    </div>
+

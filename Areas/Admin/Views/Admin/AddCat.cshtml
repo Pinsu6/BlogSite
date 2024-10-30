@@ -1,0 +1,21 @@
+﻿@model BlogApp.Areas.Admin.Models.Categoryfetch
+
+<link href="~/css/insertblog.css" rel="stylesheet" />
+<link href="~/css/Admin.css" rel="stylesheet" />
+<partial name="_sidebar" />
+<div class="container">
+    <div class="form-container">
+        <h2 class="text-center" style="color: #6a1b9a;">Edit Your Category</h2>
+        <form asp-action="AddCat" asp-controller="Admin" asp-area="Admin" method="post" enctype="multipart/form-data">
+
+            <div class="mb-3">
+                <label for="title" class="form-label">Title</label>
+                <input type="text" class="form-control" id="title" placeholder="Enter blog title"
+                       asp-for="CatList" required>
+            </div>
+
+            <button type="submit" class="btn btn-purple w-100">Add Category</button>
+        </form>
+    </div>
+</div>
+

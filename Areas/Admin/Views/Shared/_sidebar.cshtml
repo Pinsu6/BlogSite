@@ -1,0 +1,25 @@
+﻿<div class="sidebar d-flex flex-column p-3">
+    <h3 class="text-center">Admin Panel</h3>
+    <hr>
+    <ul class="nav flex-column">
+        <li class="nav-item">
+            <a href="#" class="nav-link active"><i class="fas fa-tachometer-alt m-1"></i> Dashboard</a>
+        </li>
+       
+        <li class="nav-item">
+            <a asp-area="Admin" asp-controller="Admin" asp-action="Bloginsert" class="nav-link"><i class="fas fa-blog m-1"></i> Blogs</a>
+        </li>
+        <li class="nav-item">
+            <a asp-area="Admin" asp-controller="Admin" asp-action="Manageblog" class="nav-link"><i class="fas fa-chart-line m-1"></i>Manage Blogs</a>
+        </li>
+        <li class="nav-item">
+            <a asp-area="Admin" asp-controller="Admin" asp-action="CategoryManage" class="nav-link"><i class="fas fa-cogs m-1"></i>CategoryManage</a>
+        </li>
+        <li class="nav-item mt-auto">
+            <a asp-area="Admin" asp-controller="Admin" asp-action="CommentHandle" class="nav-link"><i class="fas fa-sign-out-alt m-1"></i> Comment Manage</a>
+        </li>
+        <li class="nav-item mt-auto">
+            <a asp-area="Admin" asp-controller="Admin" asp-action="readContect" class="nav-link "><i class="fa fa-address-book m-1"></i>ContectMessage</a>
+        </li>
+    </ul>
+</div>

@@ -1,0 +1,42 @@
+﻿@model BlogApp.Areas.Admin.Models.Insertblog
+
+<link href="~/css/insertblog.css" rel="stylesheet" />
+<link href="~/css/Admin.css" rel="stylesheet" />
+<partial name="_sidebar" />
+<div class="container">
+    <div class="form-container">
+        <h2 class="text-center" style="color: #6a1b9a;">Edit Your Blog</h2>
+        <form asp-action="Updateblog" asp-controller="Admin" asp-area="Admin" method="post" enctype="multipart/form-data">
+
+            <div class="mb-3">
+                <label for="title" class="form-label">Title</label>
+                <input type="text" class="form-control" id="title" placeholder="Enter blog title" 
+                       asp-for="Blogname"  required>
+            </div>
+
+            <div class="mb-3">
+                <label for="authorname" class="form-label">Author Name</label>
+                <input type="text" class="form-control" id="authorname" placeholder="Enter your name" 
+                       asp-for="AuthName"  required>
+            </div>
+
+         
+
+            <div class="mb-3">
+                <label for="sortdesc" class="form-label">Short Description</label>
+                <textarea class="form-control" id="sortdesc" rows="3" placeholder="Enter a short description" 
+                          asp-for="ShortDesc" required></textarea>
+            </div>
+
+            <div class="mb-3">
+                <label for="fulldesc" class="form-label">Full Description</label>
+                <textarea class="form-control" id="fulldesc" rows="6" placeholder="Enter full blog description" 
+                          asp-for="Descript" required></textarea>
+            </div>
+
+           
+
+            <button type="submit" class="btn btn-purple w-100">Update Blog</button>
+        </form>
+    </div>
+</div>

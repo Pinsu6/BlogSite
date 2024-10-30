@@ -1,0 +1,50 @@
+﻿
+:root {
+    --primary-purple: #c02df3;
+    --dark-purple: #563d7c;
+    --light-purple: #a085f3;
+    --sidebar-width: 250px;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+.sidebar {
+    width: var(--sidebar-width);
+    height: 100vh;
+    background-color: var(--primary-purple);
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+}
+
+    .sidebar .nav-link {
+        color: white;
+        margin-bottom: 10px;
+    }
+
+        .sidebar .nav-link:hover {
+            background-color: var(--light-purple);
+            border-radius: 0.375rem;
+        }
+
+.navbar {
+    margin-left: var(--sidebar-width);
+    background-color: var(--light-purple);
+    color: white;
+}
+
+.main-content {
+    margin-left: var(--sidebar-width);
+    padding: 20px;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+

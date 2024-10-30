@@ -1,0 +1,100 @@
+﻿/* General adjustments for body and container */
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container for padding */
+.container {
+    padding: 20px;
+}
+
+/* Sidebar styles */
+.sidebar {
+    position: fixed; /* Fixed positioning */
+    top: 80px; /* Adjust based on your navbar height */
+    left: 0;
+    width: 18%; /* Reduced width for sidebar */
+    height: calc(100vh - 80px); /* Full height minus navbar */
+    overflow-y: auto; /* Scroll if needed */
+    padding: 10px; /* Reduced padding */
+    background-color: #f8f9fa; /* Light background */
+}
+
+/* Blog container styles */
+.blog-container {
+    margin-left: 20%; /* Reduced margin to match sidebar width */
+    padding: 15px;
+    height: calc(100vh - 80px); /* Full height minus navbar */
+    overflow-y: auto; /* Enable scrolling for blog cards */
+}
+
+/* Styling for each blog card */
+.blog-card {
+    background-color: #ffffff; /* White background for cards */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    border: none; /* Remove border */
+    padding: 10px;
+}
+
+    /* Hover effect on blog cards */
+    .blog-card:hover {
+        transform: translateY(-5px); /* Lift effect on hover */
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+    }
+
+    /* Card image styling */
+    .blog-card img {
+        border-radius: 6px; /* Rounded corners for image */
+        width: 100%; /* Ensure the image fits the card */
+        height: 200px; /* Adjust height for smaller card size */
+        object-fit: cover;
+    }
+
+    /* Card title styling */
+    .blog-card h5 {
+        font-size: 1rem; /* Adjust font size for smaller cards */
+        font-weight: bold;
+        margin-top: 10px;
+    }
+
+/* Sidebar item styling */
+.list-group-item {
+    margin-bottom: 5px; /* Reduce margin between items */
+    padding: 8px 12px; /* Compact padding */
+}
+
+    /* Adjust active category color */
+    .list-group-item.active {
+        background-color: #a085f3;
+        border-color: #a085f3;
+    }
+
+/* Adjust button color and appearance */
+.btn {
+    background-color: #a085f3;
+    color: #fff;
+    border-radius: 20px;
+    padding: 5px 15px;
+    font-size: 0.9rem;
+}
+
+/* Responsiveness: Stack sidebar on smaller screens */
+@media (max-width: 768px) {
+    .sidebar {
+        position: relative;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .blog-container {
+        margin-left: 0;
+    }
+
+    .blog-card {
+        margin-bottom: 50px;
+    }
+}

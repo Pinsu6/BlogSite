@@ -1,0 +1,46 @@
+﻿<link href="~/css/Admin.css" rel="stylesheet" />
+<div class="container-fluid">
+    <div class="row">
+        
+        <div class="col-md-3">
+            <partial name="_sidebar" />
+        </div>
+   <div class="col-md-8 d-flex justify-content-center align-items-center mt-5 pt-5">
+            <div class="w-100">
+               
+                <table class="table table-bordered table-hover text-white text-center">
+                    <thead style="background-color: #6a0dad;">
+                        <tr>
+                            <th scope="col">ID</th>
+                            <th scope="col">Author Name</th>
+                            <th scope="col">Title</th>
+                            <th scope="col">Short Description</th>
+                            <th scope="col">Date</th>
+                            <th scope="col">Image</th>
+                            <th scope="col">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody style="background-color: #d4a6e4;">
+                        @foreach (var item in ViewBag.blog)
+                        {
+                            <tr>
+                                <td class="text-black">@item.Id</td>
+                                <td class="text-black">@item.authname</td>
+                                <td class="text-black">@item.blogname</td>
+                                <td class="text-black">@item.shortdesc</td>
+                                <td class="text-black">@item.date</td>
+                                <td class="text-black"><img src="~/images/@item.image" alt="Image" style="width: 50px; height: auto;"></td>
+                                <td>
+                                    <div class="d-flex justify-content-around">
+                                        <a class="btn btn-warning me-1" asp-controller="Admin" asp-area="Admin" asp-action="Updateblog" asp-route-id="@item.Id">Edit</a>
+                                        <a class="btn btn-danger" asp-controller="Admin" asp-area="Admin" asp-action="deleteBlog" asp-route-id="@item.Id">Delete</a>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

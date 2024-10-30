@@ -1,0 +1,353 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\c# project\\BlogApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlogApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\BlogApp.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\css\\Admin.css",
+      "PackagePath": "staticwebassets\\css\\Admin.css"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\css\\Blog.css",
+      "PackagePath": "staticwebassets\\css\\Blog.css"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\css\\insertblog.css",
+      "PackagePath": "staticwebassets\\css\\insertblog.css"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\images\\1226888e-ac4f-421d-b571-8f3a2ad05fcf_Screenshot (4).png",
+      "PackagePath": "staticwebassets\\images\\1226888e-ac4f-421d-b571-8f3a2ad05fcf_Screenshot (4).png"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\images\\4f0c7f6d-666a-49fa-a9f3-89d372353834_mobile.jpg",
+      "PackagePath": "staticwebassets\\images\\4f0c7f6d-666a-49fa-a9f3-89d372353834_mobile.jpg"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\images\\5657e62f-d44f-4b9e-a5d5-c57e0fa1e3bb_Screenshot (7).png",
+      "PackagePath": "staticwebassets\\images\\5657e62f-d44f-4b9e-a5d5-c57e0fa1e3bb_Screenshot (7).png"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\images\\Content-Hub-Blog---The-rise-of-quantum-computing.png",
+      "PackagePath": "staticwebassets\\images\\Content-Hub-Blog---The-rise-of-quantum-computing.png"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\images\\CulinaryDelights.jpg",
+      "PackagePath": "staticwebassets\\images\\CulinaryDelights.jpg"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\images\\FitnessandWellness.jpg",
+      "PackagePath": "staticwebassets\\images\\FitnessandWellness.jpg"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\images\\Screenshot (4).png",
+      "PackagePath": "staticwebassets\\images\\Screenshot (4).png"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\images\\Screenshot (7).png",
+      "PackagePath": "staticwebassets\\images\\Screenshot (7).png"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\images\\The Wonders of Nature.jpg",
+      "PackagePath": "staticwebassets\\images\\The Wonders of Nature.jpg"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\images\\TravelAdventures.jpg",
+      "PackagePath": "staticwebassets\\images\\TravelAdventures.jpg"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\images\\astro.jpg",
+      "PackagePath": "staticwebassets\\images\\astro.jpg"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\images\\b0f920b1-5078-4fc9-9d58-091c604f79b9_Retro Space Aesthetic Wallpaper Ipad.jpg",
+      "PackagePath": "staticwebassets\\images\\b0f920b1-5078-4fc9-9d58-091c604f79b9_Retro Space Aesthetic Wallpaper Ipad.jpg"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\images\\b2e6c5c9-8b4f-4e8f-8e60-9193ec2d0864_bill.jpg",
+      "PackagePath": "staticwebassets\\images\\b2e6c5c9-8b4f-4e8f-8e60-9193ec2d0864_bill.jpg"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\images\\b6845119-4cc4-4c88-a64e-20af772bbbff_Screenshot (4).png",
+      "PackagePath": "staticwebassets\\images\\b6845119-4cc4-4c88-a64e-20af772bbbff_Screenshot (4).png"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\images\\bf330b50-0a69-4469-9f16-8e7cbcad0ecf_Screenshot (4).png",
+      "PackagePath": "staticwebassets\\images\\bf330b50-0a69-4469-9f16-8e7cbcad0ecf_Screenshot (4).png"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\images\\conyenthub.png",
+      "PackagePath": "staticwebassets\\images\\conyenthub.png"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\images\\fashion.jpg",
+      "PackagePath": "staticwebassets\\images\\fashion.jpg"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\images\\mobile.jpg",
+      "PackagePath": "staticwebassets\\images\\mobile.jpg"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\images\\movie.jpg",
+      "PackagePath": "staticwebassets\\images\\movie.jpg"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\images\\tech2024.jpg",
+      "PackagePath": "staticwebassets\\images\\tech2024.jpg"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\c# project\\BlogApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BlogApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.BlogApp.props",
+      "PackagePath": "build\\BlogApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.BlogApp.props",
+      "PackagePath": "buildMultiTargeting\\BlogApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.BlogApp.props",
+      "PackagePath": "buildTransitive\\BlogApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

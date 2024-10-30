@@ -1,0 +1,78 @@
+﻿@model BlogApp.Areas.Blog.Models.Blog
+<style>
+    .fixed-image {
+        position: sticky;
+        top: 20px; /* Adjust as needed */
+        max-height: 400px; /* Set a maximum height for the image */
+        width: auto; /* Maintain aspect ratio */
+        border-radius: 8px; /* Add border radius for aesthetics */
+    }
+
+    .content {
+        max-height: 400px; /* Set a maximum height for the content */
+        overflow-y: auto; /* Enable vertical scrolling */
+        padding-right: 15px; /* Add some space for the scrollbar */
+    }
+</style>
+
+<div class="container mt-5">
+    <div class="row">
+        <!-- Blog Image -->
+        <div class="col-md-4 m-auto">
+            <img src="~/images/@Model.image" class="img-fluid fixed-image " alt="Blog Post Image">
+        </div>
+
+        <!-- Blog Content -->
+        <div class="col-md-8 content">
+            <div class="mt-4">
+                <h5 class="text-muted">Posted by @Model.authname on @Model.date</h5>
+               
+                <p>
+                 @Model.descript    
+                <p/>
+            </div>
+        </div>
+    </div>
+
+    <hr class="my-5">
+    <!--comment-->
+    <!--Add Comment-->
+    @await Html.PartialAsync("_comment")
+    <hr/>
+    <!--end-->
+    <h3 class="mb-4">Comments</h3>
+    @foreach(var item in ViewBag.cmt)
+    {
+        <div class="card mb-3 shadow-sm">
+            <div class="card-body position-relative">
+                <!-- Ellipsis Dropdown Button -->
+                @if (@Context.Session.GetInt32("UserId")==item.user_id)
+                {
+                    <div class="dropdown position-absolute" style="top: 10px; right: 10px;">
+                        <button class="btn btn-link text-dark p-0 dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fas fa-ellipsis-h"></i>
+                        </button>
+
+                        <!-- Dropdown Menu -->
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <li>
+
+                                <a asp-controller="Blog" asp-area="Blog" asp-action="deleteComment" asp-route-id="@item.id" class="dropdown-item text-danger">Delete</a>
+
+                            </li>
+                        </ul>
+                    </div>
+                }
+                
+
+                <!-- Comment Content -->
+                <h5 class="card-title">@item.Name</h5>
+                <p class="card-text">@item.cmt</p>
+            </div>
+        </div>
+
+    }
+ 
+    <!--End-->
+    
+</div>

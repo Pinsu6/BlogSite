@@ -1,0 +1,61 @@
+﻿
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<nav class="navbar navbar-expand-lg fixed-top  " style="background-color: #c02df3; height:60px;">
+    <div class="container-fluid mt-3">
+        <a class="navbar-brand text-light font-monospace mb-4" href="#">Blogs</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon text-white">|||</span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-light font-monospace" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                
+                <li class="nav-item">
+                    <a class="nav-link text-light font-monospace" asp-area="" asp-controller="Home" asp-action="Index">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light font-monospace" asp-area="" asp-controller="Home" asp-action="ContectUs">Contact</a>
+                </li>
+               
+                   @if(Context.Session.GetString("User")!=null)
+                    {
+                    @if(Context.Session.GetInt32("isAdmin")==1)
+                        {
+                        <li class="nav-item">
+                            <a class="nav-link text-light font-monospace" asp-area="Admin" asp-controller="Admin" asp-action="Index">Admin</a>
+                        </li>
+                        }
+                       
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-light font-monospace" href="#" id="userDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                @Context.Session.GetString("User")
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
+                            <li><a class="dropdown-item" asp-area="User" asp-controller="User" asp-action="Logout">Logout</a></li>
+                        </ul>
+                        </li>
+                    <li class="nav-item">
+                           
+                    </li>
+                    }
+                    else
+                    {
+
+                    <li class="nav-item">
+                        <a class="nav-link text-light font-monospace" asp-area="User" asp-controller="User" asp-action="Login">Login</a>
+                    </li>
+                    }
+                
+
+                   
+                  
+                    
+
+               
+            </ul>
+          
+        </div>
+    </div>
+</nav>

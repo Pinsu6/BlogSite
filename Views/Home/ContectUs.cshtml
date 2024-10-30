@@ -1,0 +1,41 @@
+﻿@model BlogApp.Models.Contect
+<body style="background-color: #f3e5f5; font-family: Arial, sans-serif;">
+
+    <div class="container py-5 mt-4">
+        <div class="row justify-content-center">
+            <div class="col-lg-6 col-md-8 col-sm-10">
+                <div class="card shadow-lg">
+                    <div class="card-header text-center" style="background-color: #6a1b9a; color: #fff;">
+                        <h2>Contact Us</h2>
+                        <p>We’d love to hear from you! Please fill out the form below.</p>
+                    </div>
+                    <div class="card-body p-4" style="background-color: #e1bee7;">
+                        <form asp-action="ContectUs" method="post">
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Full Name</label>
+                                <input type="text" asp-for="Name" class="form-control" id="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email Address</label>
+                                <input type="email" asp-for="Email" class="form-control" id="email" placeholder="Your Email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="phone" class="form-label">Phone Number</label>
+                                <input asp-for="Phone" class="form-control" id="phone" placeholder="Your Phone Number">
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea   asp-for="Message" class="form-control" id="message" rows="5" placeholder="Your Message" required></textarea>
+                            </div>
+                            <button type="submit" class="btn w-100" style="background-color: #8e24aa; color: white;">Send Message</button>
+                        </form>
+                    </div>
+                    <div class="card-footer text-center" style="background-color: #6a1b9a; color: #fff;">
+                        <p class="mb-0">Thank you for reaching out to us!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+

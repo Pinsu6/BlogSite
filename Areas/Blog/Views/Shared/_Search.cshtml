@@ -1,0 +1,12 @@
+﻿
+<form class="d-flex ms-3" asp-area="Blog" asp-controller="Blog" asp-action="Search" method="post" style="position: relative; max-width: 300px;">
+    <!-- Search input -->
+    <input type="search" name="searchblog" class="form-control" placeholder="Search"
+           style="border-radius: 20px; border: 1px solid #a085f3; background-color: #e5e5e5; padding-right: 25px;"
+           aria-label="Search Blog" />
+
+    <!-- Submit button with search icon -->
+    <button type="submit" class="btn" style="position: absolute; top: 50%; right: 10px; transform: translateY(-50%); background-color: transparent; border: none; cursor: pointer;">
+        <i class="fas fa-search" style="color: #a085f3;"></i>
+    </button>
+</form>
