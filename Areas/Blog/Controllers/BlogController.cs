@@ -1,5 +1,6 @@
 ﻿using BlogApp.Areas.Blog.Models;
 using BlogApp.Models;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.CodeAnalysis.Elfie.Diagnostics;
 using Newtonsoft.Json;
@@ -26,6 +27,11 @@ namespace BlogApp.Areas.Blog.Controllers
             // Get all blogs from database
             List<Areas.Blog.Models.Blog> b = d.GetData("GetBlogs");
 
+            var categories = d.GetCategories("selectcategoryname");
+            g.categoryname = categories; // Set categories to g.categoryname if it's a List<YourCategoryType>
+
+            // Serialize the list to JSON and store it in the session
+            HttpContext.Session.SetString("cat", JsonConvert.SerializeObject(g.categoryname));
             // Paginate data for the current page
             var pagedBlogs = b.Skip((page - 1) * pageSize).Take(pageSize).ToList();
             g.blogs = pagedBlogs; // Assign only paginated data to the model

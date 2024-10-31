@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\c# project\\BlogApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{60ABB36E-3901-4E3F-BDB4-BC4D5CBC0715}|BlogApp.csproj|d:\\c# project\\blogapp\\models\\dblogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60ABB36E-3901-4E3F-BDB4-BC4D5CBC0715}|BlogApp.csproj|solutionrelative:models\\dblogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{60ABB36E-3901-4E3F-BDB4-BC4D5CBC0715}|BlogApp.csproj|d:\\c# project\\blogapp\\areas\\blog\\views\\blog\\category.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{60ABB36E-3901-4E3F-BDB4-BC4D5CBC0715}|BlogApp.csproj|solutionrelative:areas\\blog\\views\\blog\\category.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -31,10 +35,6 @@
       "RelativeMoniker": "D:0:0:{60ABB36E-3901-4E3F-BDB4-BC4D5CBC0715}|BlogApp.csproj|solutionrelative:areas\\user\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60ABB36E-3901-4E3F-BDB4-BC4D5CBC0715}|BlogApp.csproj|d:\\c# project\\blogapp\\models\\dblogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60ABB36E-3901-4E3F-BDB4-BC4D5CBC0715}|BlogApp.csproj|solutionrelative:models\\dblogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{60ABB36E-3901-4E3F-BDB4-BC4D5CBC0715}|BlogApp.csproj|d:\\c# project\\blogapp\\areas\\user\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{60ABB36E-3901-4E3F-BDB4-BC4D5CBC0715}|BlogApp.csproj|solutionrelative:areas\\user\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -46,64 +46,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "BlogController.cs",
               "DocumentMoniker": "D:\\c# project\\BlogApp\\Areas\\Blog\\Controllers\\BlogController.cs",
               "RelativeDocumentMoniker": "Areas\\Blog\\Controllers\\BlogController.cs",
               "ToolTip": "D:\\c# project\\BlogApp\\Areas\\Blog\\Controllers\\BlogController.cs",
               "RelativeToolTip": "Areas\\Blog\\Controllers\\BlogController.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAAACIAAAAnAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAABkAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-30T07:07:40.219Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Category.cshtml",
               "DocumentMoniker": "D:\\c# project\\BlogApp\\Areas\\Blog\\Views\\Blog\\Category.cshtml",
               "RelativeDocumentMoniker": "Areas\\Blog\\Views\\Blog\\Category.cshtml",
               "ToolTip": "D:\\c# project\\BlogApp\\Areas\\Blog\\Views\\Blog\\Category.cshtml",
               "RelativeToolTip": "Areas\\Blog\\Views\\Blog\\Category.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABIAAABdAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-30T09:52:45.62Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-30T09:52:45.62Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "_category.cshtml",
               "DocumentMoniker": "D:\\c# project\\BlogApp\\Areas\\Blog\\Views\\Shared\\_category.cshtml",
               "RelativeDocumentMoniker": "Areas\\Blog\\Views\\Shared\\_category.cshtml",
               "ToolTip": "D:\\c# project\\BlogApp\\Areas\\Blog\\Views\\Shared\\_category.cshtml",
               "RelativeToolTip": "Areas\\Blog\\Views\\Shared\\_category.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAtAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-30T09:52:33.02Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-30T09:52:33.02Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "_blog.cshtml",
               "DocumentMoniker": "D:\\c# project\\BlogApp\\Areas\\Blog\\Views\\Shared\\_blog.cshtml",
               "RelativeDocumentMoniker": "Areas\\Blog\\Views\\Shared\\_blog.cshtml",
               "ToolTip": "D:\\c# project\\BlogApp\\Areas\\Blog\\Views\\Shared\\_blog.cshtml",
               "RelativeToolTip": "Areas\\Blog\\Views\\Shared\\_blog.cshtml",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAQwDMAAABzAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-30T07:14:19.165Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-30T07:14:19.165Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Pagger.cs",
               "DocumentMoniker": "D:\\c# project\\BlogApp\\Areas\\Blog\\Models\\Pagger.cs",
               "RelativeDocumentMoniker": "Areas\\Blog\\Models\\Pagger.cs",
@@ -111,8 +107,7 @@
               "RelativeToolTip": "Areas\\Blog\\Models\\Pagger.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T06:58:06.485Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-30T06:58:06.485Z"
             },
             {
               "$type": "Document",
@@ -124,25 +119,24 @@
               "RelativeToolTip": "Areas\\User\\Models\\Login.cs",
               "ViewState": "AQIAAAIAAAAAAAAAAAAiwAoAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T14:52:14.322Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-29T14:52:14.322Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "DbLogic.cs",
               "DocumentMoniker": "D:\\c# project\\BlogApp\\Models\\DbLogic.cs",
               "RelativeDocumentMoniker": "Models\\DbLogic.cs",
               "ToolTip": "D:\\c# project\\BlogApp\\Models\\DbLogic.cs",
               "RelativeToolTip": "Models\\DbLogic.cs",
-              "ViewState": "AQIAAG8AAAAAAAAAAAAiwHUAAAAMAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-29T15:24:44.21Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Login.cshtml",
               "DocumentMoniker": "D:\\c# project\\BlogApp\\Areas\\User\\Views\\User\\Login.cshtml",
               "RelativeDocumentMoniker": "Areas\\User\\Views\\User\\Login.cshtml",
@@ -150,12 +144,11 @@
               "RelativeToolTip": "Areas\\User\\Views\\User\\Login.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-29T14:50:38.267Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-29T14:50:38.267Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "UserController.cs",
               "DocumentMoniker": "D:\\c# project\\BlogApp\\Areas\\User\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Areas\\User\\Controllers\\UserController.cs",
@@ -163,8 +156,7 @@
               "RelativeToolTip": "Areas\\User\\Controllers\\UserController.cs",
               "ViewState": "AQIAACYAAAAAAAAAAAAAwDYAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T14:46:15.935Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-29T14:46:15.935Z"
             }
           ]
         }
